@@ -22,5 +22,5 @@ Selecting from the menu will execute branching and achieve the following results
 5: Quit
 ![image](https://user-images.githubusercontent.com/90648776/190500805-d27a0019-ab2a-442a-b9fd-23139ee1b8a3.png)
 
-Each time the user is prompted to input anything, the input is verified to be of the requested data type
+Each time the user is prompted to input anything, the input is verified to be of the requested data type, if it is not, they are prompted to try again.
 In its current state, the array is abstracted from the user, who can only know the values they search for, modify, or add.
