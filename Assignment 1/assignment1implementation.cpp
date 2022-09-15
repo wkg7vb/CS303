@@ -27,13 +27,13 @@ int main()
 		//*/
 		
 		//displays menu to user and accepts the input
-		cout << "Select from the following options" << endl
+		cout << endl << "Select from the following options" << endl
 		<< "1: Search the Array for an Integer" << endl
 		<< "2: Modify an Element of the Array" << endl
 		<< "3: Add an Element to the Array" << endl
 		<< "4: Remove an Element from the Array" << endl
 		<< "5: Quit" << endl
-		<< "(use numbers 1-5 to make your selection)" << endl;
+		<< "(use numbers 1-5 to make your selection)" << endl << endl;
 
 		cin >> inputstr;			
 		cout << endl;
@@ -41,7 +41,7 @@ int main()
 		//verifies that user input is an integer
 		if (isInt(inputstr) == false)
 		{
-			cout << "Invalid input, please use only integer values." << endl;
+			cout << "Invalid input, please use only integer values." << endl << endl;
 		}
 		else
 		{
@@ -75,7 +75,7 @@ int main()
 				}
 				default:
 				{
-					cout << "Invaid input. Please try again using a number 1-5." << endl;
+					cout << "Invaid input. Please try again using a number 1-5." << endl << endl;
 					break;
 				}
 			}
@@ -131,6 +131,7 @@ void::searchArray(int (&arr)[200], int size)
 	//asks for and receives user input
 	cout << "What integer would you like to search for?" << endl;
 	cin >> inputstr;
+	cout << endl;
 
 	//verifies that user input is an integer
 	if (isInt(inputstr) == false)
@@ -168,6 +169,7 @@ void::changeElement(int (&arr)[200], int size)
 	cout << "What element would you like to modify?" << endl;
 	cout << "Select element 0 through " << (size - 1) << "." << endl;
 	cin >> inputstr1;
+	cout << endl;
 
 	//verifies that user input is an integer
 	if (isInt(inputstr1) == false)
@@ -190,6 +192,7 @@ void::changeElement(int (&arr)[200], int size)
 		//asks for and receives user input
 		cout << "What would you like to change the element at index " << input1 << " to?" << endl;
 		cin >> inputstr2;
+		cout << endl;
 
 		//verifies that user input is an integer
 		if (isInt(inputstr2) == false)
@@ -217,6 +220,7 @@ void::newElement(int (&arr)[200], int &size)
 	//asks for and receives user input
 	cout << "What is the integer value you would like to add to the array?" << endl;
 	cin >> inputstr;
+	cout << endl;
 
 	//verifies that user input is an integer
 	if (isInt(inputstr) == false)
@@ -245,6 +249,7 @@ void::removeElement(int (&arr)[200], int &size)
 	cout << "What element would you like to remove from the array?" << endl;
 	cout << "Select element 0 through " << (size - 1) << "." << endl;
 	cin >> inputstr;
+	cout << endl;
 
 	//verifies that user input is an integer
 	if (isInt(inputstr) == false)
