@@ -111,7 +111,7 @@ int::readFile(string filename, int (&arr)[200])
 	//fill the rest of the excessivly large array with 0s (this will allow a certain degree of maliability of the size of the array)
 	for (int i = inputs; i < 200; i++)
 	{
-		arr[i] = 0;
+		arr[i] = -1;
 	}
 
 	// close file
