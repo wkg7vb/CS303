@@ -235,7 +235,7 @@ void::newElement(int (&arr)[200], int &size)
 
 	//informs user of their choice and updates the array size
 	arr[size] = input;
-	cout << "Added " << input << " to the end of the array at index" << input << "." << endl;
+	cout << "Added " << input << " to the end of the array at index " << size << "." << endl;
 	size++;
 }
 
