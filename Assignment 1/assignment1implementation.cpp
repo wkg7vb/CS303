@@ -159,7 +159,7 @@ void::searchArray(int (&arr)[200], int size)
 	}
 }
 
-//modifies an element of the array
+//modifies an element of the array Edited to meet requirements for assignment 2
 void::changeElement(int (&arr)[200], int size)
 {
 	int input1, input2;
@@ -168,7 +168,10 @@ void::changeElement(int (&arr)[200], int size)
 	//asks for and receives user input
 	cout << "What element would you like to modify?" << endl;
 	cout << "Select element 0 through " << (size - 1) << "." << endl;
-	cin >> inputstr1;
+	try //Added to meet requirements for assignment 2
+	{
+		cin >> inputstr1;
+	}
 	cout << endl;
 
 	//verifies that user input is an integer
@@ -191,7 +194,10 @@ void::changeElement(int (&arr)[200], int size)
 	{
 		//asks for and receives user input
 		cout << "What would you like to change the element at index " << input1 << " to?" << endl;
-		cin >> inputstr2;
+		try //Added to meet requirements for assignment 2
+		{
+			cin >> inputstr2;
+		}
 		cout << endl;
 
 		//verifies that user input is an integer
@@ -211,7 +217,7 @@ void::changeElement(int (&arr)[200], int size)
 	}
 }
 
-//adds a new element to the array
+//adds a new element to the array Edited to meet requirements for assignment 2
 void::newElement(int (&arr)[200], int &size)
 {
 	int input;
@@ -219,7 +225,10 @@ void::newElement(int (&arr)[200], int &size)
 
 	//asks for and receives user input
 	cout << "What is the integer value you would like to add to the array?" << endl;
-	cin >> inputstr;
+	try //Added to meet requirements for assignment 2
+	{
+		cin >> inputstr;
+	}
 	cout << endl;
 
 	//verifies that user input is an integer
@@ -293,3 +302,7 @@ bool::isInt(string input)
 	}
 	return true;
 }
+
+//Added to meet requirements of Assignment 2
+catch (std::ios_base::failure& f) { cout << "Invalid number format input" << endl; }
+catch (std::exception& ex ex) { cout << "Fatal error occurred in read_int" << endl; cout << ex.what() << endl; abort(); }
