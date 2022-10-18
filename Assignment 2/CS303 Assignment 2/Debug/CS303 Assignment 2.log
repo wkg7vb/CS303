@@ -1,6 +1,6 @@
 ﻿  Assignment2Main.cpp
-C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(30,56): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(51,107): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(110,64): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(123,48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(22,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(24,48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(61,107): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Employee.h(135,48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   CS303 Assignment 2.vcxproj -> C:\Users\walte\Documents\CS303\Assignment 2\CS303 Assignment 2\Debug\CS303 Assignment 2.exe
